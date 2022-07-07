@@ -1,6 +1,5 @@
 
 import '../Pages/documentation.css';
-
 import { Link } from "react-router-dom";
 import Navigation, { Logo, NavItem } from '../components/Navigation/Navigation';
 
@@ -13,6 +12,8 @@ export function NavigationBar(){
                <Link to="/"> Home </Link>  
                <Link to="/getstarted"> GetStarted </Link>
                <Link to="/docs"> Documentation </Link> 
+               {/* <Link to={{ pathname: "https://github.com/srinidhi9831/OneUI-component-library.git" }} target="_blank">Github</Link> */}
+               <a href="https://github.com/srinidhi9831/OneUI-component-library.git" target="_blank">Github</a>
         </NavItem>
     </Navigation>
 
