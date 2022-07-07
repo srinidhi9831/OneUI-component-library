@@ -1,0 +1,33 @@
+.input-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px; 
+}
+
+input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+label{
+    padding: 0.5rem;
+}
+
+.label-error{
+ color: red;
+}
+
+.input-error{
+ border: 0.1rem solid red;
+}
+
+
+
+.input-error:active{
+    border: 0.1rem solid red;
+}

@@ -1,0 +1,46 @@
+.lists-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.list-group{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+.list{
+    border: 2px solid black;
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem;
+    width: fit-content;
+}
+
+
+.list-group-normal{
+    border: 1px solid black;
+}
+
+.list-group-normal .list-item-normal{
+    border-bottom: 1px solid black;
+}
+
+.list-group-stacked{
+    border: 1px solid black;
+}
+
+.list-group-normal .list-item-stacked{
+    border-bottom: 1px solid black;
+}
+
+.list-group .list-item{
+    list-style: none;
+    padding: 1rem;
+    margin: 0px;
+}
+

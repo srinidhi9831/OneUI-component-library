@@ -1,0 +1,37 @@
+.badge-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height:min-content;
+    width: min-content;
+    border: none;
+    
+}
+
+.badge{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge-container .badge.badge-icon{
+    top: -0.4rem;
+    right: -0.4rem;
+   
+}
+
+.badge-container .badge.badge-avatar{
+    width: 1rem;
+    height: 1rem;
+    bottom: 0.2rem;
+    right: 0.2rem;
+}
+

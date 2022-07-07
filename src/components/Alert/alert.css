@@ -1,0 +1,26 @@
+.alert{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 95%;
+    height: 1rem;
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin: 00.5rem;
+    font-weight: bold;
+
+}
+.alert-close{
+    font-weight: bold;
+    margin-left: auto;
+    color: black;
+    cursor: pointer;
+}
+
+.alert-close:hover {
+   font-weight: 100;
+  }
+
+  .bg-green{
+    background-color: green;
+    color: white;
+  }

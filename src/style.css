@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300,400;0,600;0,700;0,800;0,900;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap');
+
+
+
+
+@import url(./components/Alert/alert.css);
+@import url(./components/Avatar/avatar.css);
+@import url(./components/Badge/badge.css);
+@import url(./components/Button/button.css);
+@import url(./components/Card/card.css);
+@import url(./components/Image/image.css);
+@import url(./components/Input/input.css);
+@import url(./components/Lists/lists.css);
+@import url(./components/Modal/modal.css);
+@import url(./components/Toast/toast.css);
+@import url(./components/Navigation/navigation.css);
+@import url(./components/Rating/rating.css);
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* @import url(./components/Toast/);
+@import url(./components/Button/button.css); */
+:root{
+    --primary:#FF3B30;
+    --secondary:#FFF6EA;
+    --action:#3B82F6;
+    --grey:#9A9A9A;
+    --black:#282828;
+    --white:#FFFFFF;
+    --lynx-white:#F7F7F7;
+    --violet:#5348C7;
+    --lynx-gray:#C5C5C5;
+    --primary-hover:#F87171;
+
+    --blue: #14213D;
+    --lightblue: #2E86AB;
+    --green: rgb(12, 195, 12);
+    --red: #F24236; 
+    --yellow: #FCA311;
+
+}
+
+.bg-gray{
+    background-color: var(--grey);
+    color: var(--white);
+}
+.bg-black{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.bg-blue{
+    background-color: var(--blue);
+    border: none;
+    color: var(--white);
+}
+.bg-yellow{
+    background-color: var(--yellow);
+    border: none;
+    color: var(--white);
+}
+.bg-green{
+    background-color: var(--green);
+    border: none;
+    color: var(--white);
+}
+.bg-red{
+    background-color: var(--red);
+    border: none;
+    color: var(--white);
+}
+
+.bg-primary{
+    background-color: var(--primary);
+    border: none;
+    color: var(--white);
+}
+
+.bg-secondary{
+    background-color: var(--secondary);
+    border: none;
+    color: var(--white);
+}
+
+.bg-action{
+    background-color: var(--action);
+    border: none;
+    color: var(--white);
+}
+
+.bg-violet{
+    background-color: var(--violet); 
+    border: none;
+    color: var(--white);
+}
+
+
+
+
+
+.bg-link-primary{
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+.bg-link-gray{
+    border: 1px solid var(--lynx-gray);
+    color: var(--lynx-gray);
+}
+
+.bg-link-green{
+    border: 1px solid var(--green);
+    color: var(--green);
+}
+.bg-link-yellow{
+    border: 1px solid var(--yellow);
+    color: var(--yellow);
+}
+.bg-link-blue{
+    border: 1px solid var(--blue);
+    color: var(--blue);
+}
+.bg-link-red{
+    border: 1px solid var(--red);
+    color: var(--red);
+}
+.bg-link-black{
+    border: 1px solid var(--black);
+    color: var(--black);
+}
+
+
+
+
+.label-success{
+    color:var(--green)
+   }
+   
+   .input-success{
+    border: 0.1rem solid var(--green);
+   }
+
+   .label-warning{
+    color:var(--yellow);
+   }
+   
+   .input-warning{
+    border: 0.1rem solid var(--yellow);
+   }
