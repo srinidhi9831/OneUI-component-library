@@ -25,7 +25,7 @@ export default function Inputcomponent(){
                     </div>
                 </div>
                 <div class="component-items-container ">
-                    <iframe src="https://carbon.now.sh/embed/nJyI1Qb3Y4xQQVWpMDq9" style={{width: "614px", height: "260px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin"></iframe>
+                    <iframe src="https://carbon.now.sh/embed/nJyI1Qb3Y4xQQVWpMDq9" style={{width: "614px", height: "260px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Inputnormal"></iframe>
                 </div>
              </div>
 
@@ -52,7 +52,7 @@ export default function Inputcomponent(){
     
                 </div>
                 <div class="component-items-container ">
-                    <iframe src="https://carbon.now.sh/embed/VOrwwSzEf4uP5M5u7hdY" style={{width: "656px", height: "409px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin"></iframe>
+                    <iframe src="https://carbon.now.sh/embed/VOrwwSzEf4uP5M5u7hdY" style={{width: "656px", height: "409px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Inputerror"></iframe>
                 </div>
              </div>
 

@@ -4,7 +4,7 @@ import notificationIcon from '../Image/notification.png'
 import image01 from '../Image/image01.png'
 import Badge, { BadgeRound } from '../components/Badge/Badge';
 import  { IconBottom, IconTop } from '../components/Badge/Icon';
-import Avatar, { AvatarLarge, AvatarLargeRound, AvatarMediumRound } from '../components/Avatar/Avatar';
+import  { AvatarLarge, AvatarLargeRound, AvatarMediumRound } from '../components/Avatar/Avatar';
 
 export default function Badgecomponent(){
     return(

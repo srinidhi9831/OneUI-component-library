@@ -1,5 +1,5 @@
 
-import Avatar, { AvatarLarge, AvatarLargeRound, AvatarMedium, AvatarMediumRound, AvatarSmall, AvatarSmallRound } from '../components/Avatar/Avatar';
+import  { AvatarLarge, AvatarLargeRound, AvatarMedium, AvatarMediumRound, AvatarSmall, AvatarSmallRound } from '../components/Avatar/Avatar';
 import logo from '../Image/image01.png'
 
 export default function Avatarcomponent(){

@@ -30,26 +30,19 @@ export default function Navigationcomponent(){
                 </div>
                 <div>
                 <div class="component-items-container card-shadow">   
-                    {/* <div class="navbar bg-yellow">
-                        <span class="logo">logo</span>
-                        <ul>
-                            <li> <a class="bg-black" href="#">home</a></li>
-                            <li> <a href="#">product</a></li>
-                            <li> <a href="#">about us</a></li>
-                        </ul>
-                    </div> */}
+                   
                     <Navigation className="bg-yellow">
                           <Logo>Logo</Logo>
                      <NavItem>
-                        <a>Home</a>
-                        <a>Products</a>
+                     <span>Home</span>
+                        <span>Products</span>
                         <span>About Us</span>
                         </NavItem>
                      </Navigation>
                 </div>
 
                 <div class="component-items-container ">
-                    <iframe src="https://carbon.now.sh/embed/tG1Wmi9JRryNdjRkCp1p"style={{width: "597px", height: "335px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin"></iframe>
+                    <iframe src="https://carbon.now.sh/embed/tG1Wmi9JRryNdjRkCp1p"style={{width: "597px", height: "335px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Navigation"></iframe>
                 </div>
               </div>
 

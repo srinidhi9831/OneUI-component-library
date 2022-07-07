@@ -18,7 +18,7 @@ export default function Imagecomponent(){
                     
                  </div>
                  <div class="component-items-container">
-                    <iframe src="https://carbon.now.sh/embed/edIF6etVdqlPyWSVzAu7" style={{width: "462px", height: "205px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin"></iframe>
+                    <iframe src="https://carbon.now.sh/embed/edIF6etVdqlPyWSVzAu7" style={{width: "462px", height: "205px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Imageresponsive"></iframe>
                  </div>     
               </div>    
 
@@ -39,7 +39,7 @@ export default function Imagecomponent(){
                     <ImageRound image={waterImage} height="150px" width="150px" />
                 </div>
                 <div class="component-items-container">
-                    <iframe src="https://carbon.now.sh/embed/4IAny0rMkHvuMTSPC5uK"style={{width:"428px", height: "242px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin"></iframe>
+                    <iframe src="https://carbon.now.sh/embed/4IAny0rMkHvuMTSPC5uK"style={{width:"428px", height: "242px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Imageround"></iframe>
                 </div>
              </div>
         </div>

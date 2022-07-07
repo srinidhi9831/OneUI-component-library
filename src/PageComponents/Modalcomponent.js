@@ -20,7 +20,7 @@ export default function Modalcomponent(){
                     </div>
                 </div>
                 <div class="component-items-container ">
-                    <iframe src="https://carbon.now.sh/embed/nZUq3QcYWUp1Lcv53Y3V" style={{width: "538px", height: "372px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin"></iframe>
+                    <iframe src="https://carbon.now.sh/embed/nZUq3QcYWUp1Lcv53Y3V" style={{width: "538px", height: "372px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Modal"></iframe>
                 </div>
               </div>
 

@@ -39,7 +39,7 @@ export function CardWithTextOverlay(props){
     return(
         <div class="card card-with-image">
         <div class="card-image card-image-overlay">
-        <img src={props.image} />
+        <img src={props.image} alt=""/>
           <div class="title title-overlay">
           {props.title}
            </div>
@@ -74,7 +74,7 @@ export function CardVertical(props){
     return(
         <div class="vertical card card-with-image">
         <div class="card-image">
-           <img src={props.image} />
+           <img src={props.image} alt=""/>
         </div>
         <div>
         <div class="title">
@@ -96,7 +96,7 @@ export function CardHorizantal(props){
     return(
         <div class="horizantal card card-with-image">
         <div class="card-image">
-        <img src={props.image} />
+        <img src={props.image} alt=""/>
         </div>
         <div>
         <div class="title">
@@ -118,7 +118,7 @@ export function CardShadow(props){
     return(
         <div class="card card-shadow card-with-image">
         <div class="card-image">
-        <img src={props.image} />
+        <img src={props.image} alt=""/>
     
                <div class="title">
                {props.title}

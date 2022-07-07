@@ -1,6 +1,6 @@
 import { CardHorizantal, CardShadow, CardVertical, CardWithBadge, CardWithDismiss, CardWithTextOnly, CardWithTextOverlay } from "../components/Card/Card";
 import image01 from '../Image/image01.png'
-import waterImage from '../Image/water.jpg'
+//import waterImage from '../Image/water.jpg'
 
 export default function Cardcomponent(){
     return(
@@ -17,7 +17,7 @@ export default function Cardcomponent(){
                     <CardWithBadge title="this is title" content=" this is card with only text and a badge on top" badgeValue="20" />
                 </div>
                 <div class="component-items-container">
-                    <iframe src="https://carbon.now.sh/embed/sByGEp7CzKMdXSnYlP85"style={{width: "445px", height: "279px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin"></iframe>
+                    <iframe src="https://carbon.now.sh/embed/sByGEp7CzKMdXSnYlP85"style={{width: "445px", height: "279px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="CardWithBadge"></iframe>
                 </div>
               </div>
 
@@ -29,7 +29,7 @@ export default function Cardcomponent(){
                     <CardWithDismiss title="this is title" content=" this is card with only text and a dismiss button" />
                 </div>
                 <div class="component-items-container">
-                    <iframe src="https://carbon.now.sh/embed/YHXTgJflYlCATqHWmQhM"style={{width: "681px", height: "260px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin"></iframe>
+                    <iframe src="https://carbon.now.sh/embed/YHXTgJflYlCATqHWmQhM"style={{width: "681px", height: "260px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="CardWithdismiss"></iframe>
                 </div>
               </div>
 
@@ -41,7 +41,7 @@ export default function Cardcomponent(){
                     <CardWithTextOverlay title=" this is title" content="this is card with image and card with text overlay." image={image01} />
                 </div>
                 <div class="component-items-container">
-                    <iframe src="https://carbon.now.sh/embed/n15QaFB8SBiLH5FBCEwU" style={{width: "546px", height: "316px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin"></iframe>
+                    <iframe src="https://carbon.now.sh/embed/n15QaFB8SBiLH5FBCEwU" style={{width: "546px", height: "316px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="CardWithtextoverlay"></iframe>
                 </div>
               </div>
 
@@ -53,7 +53,7 @@ export default function Cardcomponent(){
                     <CardWithTextOnly title=" this is title" content=" this is card with only text , text only card." />
                 </div>
                 <div class="component-items-container">
-                    <iframe src="https://carbon.now.sh/embed/3kOfY5gEFqpk9vwtpUr2"style={{width: "420px", height: "260px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin"></iframe>
+                    <iframe src="https://carbon.now.sh/embed/3kOfY5gEFqpk9vwtpUr2"style={{width: "420px", height: "260px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Cardtextonly"></iframe>
                 </div>
               </div>
                {/* <!-- vertical cards--> */}
@@ -64,7 +64,7 @@ export default function Cardcomponent(){
                     <CardVertical title="this is title" content="this is card with vertically aligned with image ,title and content." image={image01} />
                 </div>
                 <div class="component-items-container">
-                    <iframe src="https://carbon.now.sh/embed/QBn86f4jnpLJWw0qLtd7"style={{width: "513px", height: "353px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin"></iframe>
+                    <iframe src="https://carbon.now.sh/embed/QBn86f4jnpLJWw0qLtd7"style={{width: "513px", height: "353px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Cardvertical"></iframe>
                 </div>
               </div>
               {/* <!-- horizontal cards--> */}
@@ -76,7 +76,7 @@ export default function Cardcomponent(){
                     <CardHorizantal title="this is title" content="this is card with horizontally aligned with image ,title and content." image={image01} />
                 </div>
                 <div class="component-items-container">
-                    <iframe src="https://carbon.now.sh/embed/JqVHn6IMVUpYsIfPozki"style={{width:"529px", height: "353px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin"></iframe>
+                    <iframe src="https://carbon.now.sh/embed/JqVHn6IMVUpYsIfPozki"style={{width:"529px", height: "353px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Cardhorizontal"></iframe>
                 </div>
               </div>
                {/* <!-- shadow cards--> */}
@@ -87,7 +87,7 @@ export default function Cardcomponent(){
                     <CardShadow title="this is title" content=" this is card with only text and shadow , card with shadow." image={image01} />
                 </div>
                 <div class="component-items-container">
-                    <iframe src="https://carbon.now.sh/embed/MNMmwcFZYCUeCMrVBHt8"style={{width: "538px", height: "316px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin"></iframe>
+                    <iframe src="https://carbon.now.sh/embed/MNMmwcFZYCUeCMrVBHt8"style={{width: "538px", height: "316px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="CardWithshadow"></iframe>
                 </div>
             </div>
      </div>
