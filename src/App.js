@@ -21,7 +21,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/docs"  element={<Documentation />} />
           <Route path="/getstarted"  element={<Getstarted />} />
-          //<Route path="https://github.com/srinidhi9831/OneUI-component-library.git" />
+        {/* /<Route path="https://github.com/srinidhi9831/OneUI-component-library.git" /> */}
         {/* //  <Route path="/documentation" element={<Documentation />} /> */}
         </Routes>
       </header>

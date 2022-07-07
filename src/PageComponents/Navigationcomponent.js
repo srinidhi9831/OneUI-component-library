@@ -12,8 +12,7 @@ export function NavigationBar(){
                <Link to="/"> Home </Link>  
                <Link to="/getstarted"> GetStarted </Link>
                <Link to="/docs"> Documentation </Link> 
-               {/* <Link to={{ pathname: "https://github.com/srinidhi9831/OneUI-component-library.git" }} target="_blank">Github</Link> */}
-               <a href="https://github.com/srinidhi9831/OneUI-component-library.git" target="_blank">Github</a>
+               <a href="https://github.com/srinidhi9831/OneUI-component-library.git" target="_blank" rel="noreferrer" >Github </a>
         </NavItem>
     </Navigation>
 
