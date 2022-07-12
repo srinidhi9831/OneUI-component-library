@@ -52,6 +52,10 @@ p{
 
 }
 
+.bg-lynx-white{
+    background-color: var(--lynx-gray);
+}
+
 .bg-gray{
     background-color: var(--grey);
     color: var(--white);
@@ -86,6 +90,9 @@ p{
     background-color: var(--primary);
     border: none;
     color: var(--white);
+}
+.color-primary{
+    color:var(--primary);
 }
 
 .bg-secondary{

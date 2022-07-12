@@ -6,13 +6,13 @@ import Navigation, { Logo, NavItem } from '../components/Navigation/Navigation';
 export function NavigationBar(){
     return(
       
-   <Navigation className="bg-primary">
-        <Logo>oneUI</Logo>
+   <Navigation >
+        <Logo>one<span className='bg-primary'>UI</span></Logo>
         <NavItem>
-               <Link to="/"> Home </Link>  
-               <Link to="/getstarted"> GetStarted </Link>
-               <Link to="/docs"> Documentation </Link> 
-               <a href="https://github.com/srinidhi9831/OneUI-component-library.git" target="_blank" rel="noreferrer" >Github </a>
+               <Link className='color-primary' to="/"> Home </Link>  
+               <Link style={{color:"black"}} to="/getstarted"> GetStarted </Link>
+               <Link style={{color:"black"}}  to="/docs"> Documentation </Link> 
+               <a style={{color:"black"}} href="https://github.com/srinidhi9831/OneUI-component-library.git" target="_blank" rel="noreferrer" >Github </a>
         </NavItem>
     </Navigation>
 
