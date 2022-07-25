@@ -242,6 +242,7 @@ footer{
     margin-top: 4rem;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     width: 100%;
     height: fit-content;
     align-items: center;
@@ -249,9 +250,26 @@ footer{
     gap: 2rem;
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    
+}
+
 .footer-icons{
     width: 2rem;
     height: 2rem;
+    cursor: pointer;
+}
+.footer-icons img{
     border: none;
-    outline: none;
+    outline: none; 
+}
+
+
+.footer-icons img:hover{
+    width: 2.2rem;
+    height: 2.2rem;
 }
