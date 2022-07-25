@@ -1,10 +1,9 @@
-import { NavLink } from "react-router-dom";
 import { useCart } from "../Context/cart-context";
 
 
 export default function SideNavigation(){
     const {page,setPage}=useCart();
-   const getStyle=(val)=>(val==page)?"side-nav-active":"";
+   const getStyle=(val)=>(val===page)?"side-nav-active":"";
     return(
         <div class="side-navigation">
         

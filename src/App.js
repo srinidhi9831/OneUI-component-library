@@ -2,7 +2,6 @@
 import './App.css';
 import './style.css'
 import './Pages/Getstarted.css'
-// import Documentation from './Pages/Documentation';
 import Getstarted from './Pages/GetStarted';
 import Home from './Pages/Home';
 import {NavigationBar} from './PageComponents/Navigationcomponent';
@@ -15,7 +14,7 @@ import Buttoncomponent from './PageComponents/Buttoncomponent';
 import Cardcomponent from './PageComponents/Cardcomponent';
 import Imagecomponent from './PageComponents/Imagecomponent';
 import Inputcomponent from './PageComponents/Inputcomponent';
-import SideNavigation from './PageComponents/SideNavigation';
+
 
 
 

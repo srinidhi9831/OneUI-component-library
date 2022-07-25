@@ -11,7 +11,6 @@ import Listcomponent from '../PageComponents/Listcomponent';
 import Modalcomponent from '../PageComponents/Modalcomponent';
 import Toastcomponent from '../PageComponents/Toastcomponent';
 import Navigationcomponent from '../PageComponents/Navigationcomponent';
-import Button from '../components/Button/Button';
 import Buttonpagenav from '../PageComponents/Nextprevbtcomponent';
 import { useEffect } from "react"; 
 import { useCart } from '../Context/cart-context';
