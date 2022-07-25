@@ -14,6 +14,7 @@ import Navigationcomponent from '../PageComponents/Navigationcomponent';
 import Buttonpagenav from '../PageComponents/Nextprevbtcomponent';
 import { useEffect } from "react"; 
 import { useCart } from '../Context/cart-context';
+import Footer from '../PageComponents/Footer';
 
 export default function Documentation(){
     const {page:pageNo}=useCart();
@@ -43,6 +44,7 @@ export default function Documentation(){
            { pageNo===11 &&  <Toastcomponent />}
            
        <Buttonpagenav/>
+       <Footer />
         </div>
         </div>
 

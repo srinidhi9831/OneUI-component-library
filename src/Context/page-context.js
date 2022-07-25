@@ -5,7 +5,7 @@ export const PageContext = createContext();
 
 export function PageProvider({children}){ 
     return(
-        <PageContext.Provider value={{pagess:89}} >
+        <PageContext.Provider value={{ pagess:89}} >
             {children}
         </PageContext.Provider>
     );

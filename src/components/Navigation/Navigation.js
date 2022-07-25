@@ -13,8 +13,14 @@ export default function Navigation(props){
 export function NavItem(props){
     return(
         <ul>
-            <li>{props.children}</li>
+            {props.children}
         </ul>
+    );
+}
+
+export function Item(props){
+    return(
+        <li>{props.children}</li>
     );
 }
 

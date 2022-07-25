@@ -1,19 +1,34 @@
 import { NavLink } from "react-router-dom";
 import '../Pages/documentation.css';
+import github from '../Image/github-logo.png'
 //import { Link } from "react-router-dom";
-import Navigation, { Logo, NavItem } from '../components/Navigation/Navigation';
+import Navigation, { Item, Logo, NavItem } from '../components/Navigation/Navigation';
 import { NavigationReactSnippet } from "../Iframes";
+import { useCart } from "../Context/cart-context";
 
-export function NavigationBar(){
+export function NavigationBar(){ 
+    const {setPage}=useCart();
+    const getActiveStyle = ({ isActive }) => {
+    
+    
+        return ({color: isActive ? "red" : "black" })
+}
+
+
+const pageReset=()=>{setPage(1)}
     return(
       
    <Navigation >
         <Logo>one<span className='bg-primary'>UI</span></Logo>
         <NavItem>
-             <NavLink style={getActiveStyle} to="/">Home</NavLink>
-             <NavLink style={getActiveStyle} to="/getstarted">GetStarted</NavLink>
-             <NavLink style={getActiveStyle} to="/docs">Documentation</NavLink>
-             <a style={{color:"black"}}href="https://github.com/srinidhi9831/OneUI-component-library.git" target="_blank" rel="noreferrer" >Github </a>
+            <Item><NavLink onClick={pageReset} style={getActiveStyle} to="/">Home</NavLink></Item>
+            <Item><NavLink onClick={pageReset} style={getActiveStyle} to="/getstarted">GetStarted</NavLink></Item>
+            <Item> <NavLink onClick={pageReset} style={getActiveStyle} to="/docs">Documentation</NavLink></Item>
+            <Item> <a style={{color:"black"}}href="https://github.com/srinidhi9831/OneUI-component-library.git" target="_blank" rel="noreferrer" ><img class="footer-icons" src={github} alt="github_logo"/> </a></Item>
+             
+             
+            
+           
              
         </NavItem>
     </Navigation>
@@ -21,9 +36,7 @@ export function NavigationBar(){
 
     )
 }
-const getActiveStyle = ({ isActive }) => ({
-    color: isActive ? "red" : "black"
-  });
+
 
 export default function Navigationcomponent(){
     return(
@@ -39,9 +52,9 @@ export default function Navigationcomponent(){
                     <Navigation className="bg-yellow">
                           <Logo>Logo</Logo>
                      <NavItem>
-                        <span>Home</span>
-                        <span>Products</span>
-                        <span>About Us</span>
+                        <Item><span>Home</span></Item>
+                        <Item><span>Products</span></Item>
+                        <Item> <span>About Us</span></Item>   
                     </NavItem>
                      </Navigation>
                 </div>

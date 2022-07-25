@@ -1,3 +1,4 @@
+import Footer from '../PageComponents/Footer';
 import './documentation.css';
  
 export default function GetStarted(){
@@ -41,7 +42,7 @@ return(
            
             
 
-           
+        <Footer/>   
 </div>
 
 </body>
