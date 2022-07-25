@@ -1,4 +1,5 @@
 import { List, ListItem, ListItemStacked, ListStacked } from "../components/Lists/Lists";
+import { ListNormalReactSnippet, ListStackedReactSnippet } from "../Iframes";
 
 
 
@@ -26,6 +27,9 @@ export default function Listcomponent(){
                 <div class="component-items-container ">
                     <iframe src="https://carbon.now.sh/embed/P9lCfwi0se5vaXZ1z6sj"style={{width: "589px", height: "279px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Listnormal"></iframe>
                 </div>
+                <div class="component-items-container">
+            {ListNormalReactSnippet}
+        </div>
               </div>
 
 
@@ -47,6 +51,9 @@ export default function Listcomponent(){
                 <div class="component-items-container ">
                     <iframe src="https://carbon.now.sh/embed/pt9Sc8PyPY2uHwJpgzXz" style={{width: "546px", height: "279px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Liststacked"></iframe>
                 </div>
+                <div class="component-items-container">
+            {ListStackedReactSnippet}
+        </div>
               </div>
         
         </div>

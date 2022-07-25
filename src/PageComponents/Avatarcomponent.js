@@ -1,5 +1,6 @@
 
 import  { AvatarLarge, AvatarLargeRound, AvatarMedium, AvatarMediumRound, AvatarSmall, AvatarSmallRound } from '../components/Avatar/Avatar';
+import { AvatarReactSnippet } from '../Iframes';
 import logo from '../Image/image01.png'
 
 export default function Avatarcomponent(){
@@ -20,6 +21,9 @@ export default function Avatarcomponent(){
             <div class="component-items-container">
                 <iframe src="https://carbon.now.sh/embed/jWaDrXi9UzKcsRVdSucb" style={{width: "555px", height: "298px",border:0, transform: "scale(1)", overflow:"hidden"}}sandbox="allow-scripts allow-same-origin" title='Avatar'></iframe>
             </div>
+            <div class="component-items-container">
+            {AvatarReactSnippet}
+        </div>
        </div>
     );
 }

@@ -1,6 +1,7 @@
 import Button, { ButtonfloatingAction, ButtonIcon } from "../components/Button/Button";
 import plusIcon from '../Image/plus_icon.png';
 import homeIcon from '../Image/home_icon.png'
+import { ButtonFloatingActionReactSnippet, ButtonIconReactSnippet, ButtonOutlineReactSnippet, ButtonPrimaryReactSnippet } from "../Iframes";
 
 export default function Buttoncomponent(){
     return(
@@ -24,6 +25,9 @@ export default function Buttoncomponent(){
                 <div class="component-items-container">
                     <iframe src="https://carbon.now.sh/embed/kmILYPVxnswch2aHjjFR" style={{width: "521px", height: "298px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Button"></iframe>
                 </div>
+                <div class="component-items-container">
+            {ButtonPrimaryReactSnippet}
+        </div>
             </div>
            {/* button ends */}
 
@@ -32,7 +36,7 @@ export default function Buttoncomponent(){
             <div>
                 <h3 class="typo-24px font-regular">outline buttons</h3>
                 <div class="component-items-container card-shadow">
-                <Button className="bg-link-blue">primary</Button>
+                    <Button className="bg-link-blue">primary</Button>
                     <Button className="bg-link-green">success</Button>
                     <Button className="bg-link-yellow">warning</Button>
                     <Button className="bg-link-red">alert</Button>
@@ -44,6 +48,9 @@ export default function Buttoncomponent(){
                 <div class="component-items-container">
                     <iframe src="https://carbon.now.sh/embed/rxkUO1lmKCY852lTv2SI"style={{width: "563px", height: "298px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="ButtonLink"></iframe>
                 </div>
+                <div class="component-items-container">
+            {ButtonOutlineReactSnippet}
+        </div>
             </div>
             {/* link button ends*/}
 
@@ -62,6 +69,9 @@ export default function Buttoncomponent(){
                 <div class="component-items-container">
                     <iframe src="https://carbon.now.sh/embed/DCwpRlTyf5ybR06eFMJN"style={{width: "546px", height: "353px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="ButtonFloatingAction"></iframe>
                 </div>
+                <div class="component-items-container">
+            {ButtonFloatingActionReactSnippet}
+        </div>
             </div>
             {/* <!-- floating-action-button --> */}
 {/* 
@@ -77,6 +87,9 @@ export default function Buttoncomponent(){
                 <div class="component-items-container">
                     <iframe src="https://carbon.now.sh/embed/ZGbbTe3SGEMy88pgJvOU"style={{width: "445px", height: "353px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="ButtonIcon"></iframe>
                 </div>
+                <div class="component-items-container">
+            {ButtonIconReactSnippet}
+        </div>
             </div>
             </div>
     );

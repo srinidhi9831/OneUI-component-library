@@ -1,33 +1,29 @@
 
 
-export default function Modal(){
+export default function Modal(props){
     return(
-        <div class="modal-container">
-            <div class="modal-content">
-                <div class="modal-header">header</div>
-                content of modal 
-                <div class="modal-footer">
-                    <button>okay</button><button>close</button>
-                </div>
+        <div class="modal-container" style={props.style}>
+            <div class="modal-content card-shadow">
+                {props.children}
             </div>
             
         </div>
     );
 }
 
-export function ModalHeader({props}){
+export function ModalHeader(props){
     return(
         <div class="modal-header">{props.children}</div>
     );
 }
 
-export function ModalContent({props}){
+export function ModalContent(props){
     return(
         <div> {props.children} </div>
     );
 }
 
-export function ModalFooter({props}){
+export function ModalFooter(props){
     return(
         <div className="modal-footer"> {props.children} </div>
     );

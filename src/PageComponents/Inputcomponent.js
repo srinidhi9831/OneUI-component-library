@@ -1,5 +1,6 @@
 import { Input } from "../components/Input/Input";
 import { Label } from "../components/Input/Label";
+import { InputReactSnippet, InputWithValidationReactSnippet } from "../Iframes";
 
 
 
@@ -10,7 +11,7 @@ export default function Inputcomponent(){
 
          <div>
             <h2 class="typo-32px font-semibold"id="inputs">Inputs</h2>
-            <p class="typo-16px font-light">Inputs can have different styles based on validation. </p>
+            <p class="typo-16px font-light">Inputs can have different styles based on validation.</p>
          </div>
               <div>
                 <h3 class="typo-24px font-regular">Textbox</h3>
@@ -27,6 +28,9 @@ export default function Inputcomponent(){
                 <div class="component-items-container ">
                     <iframe src="https://carbon.now.sh/embed/nJyI1Qb3Y4xQQVWpMDq9" style={{width: "614px", height: "260px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Inputnormal"></iframe>
                 </div>
+                <div class="component-items-container">
+            {InputReactSnippet}
+        </div>
              </div>
 
              <div>
@@ -54,6 +58,9 @@ export default function Inputcomponent(){
                 <div class="component-items-container ">
                     <iframe src="https://carbon.now.sh/embed/VOrwwSzEf4uP5M5u7hdY" style={{width: "656px", height: "409px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Inputerror"></iframe>
                 </div>
+                <div class="component-items-container">
+            {InputWithValidationReactSnippet}
+        </div>
              </div>
 
 

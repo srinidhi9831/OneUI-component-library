@@ -1,4 +1,5 @@
 import { CardHorizantal, CardShadow, CardVertical, CardWithBadge, CardWithDismiss, CardWithTextOnly, CardWithTextOverlay } from "../components/Card/Card";
+import { CardHorizantalReactSnippet, CardShadowReactSnippet, CardVerticalReactSnippet, CardWithBadgeReactSnippet, CardWithDismissReactSnippet, CardWithTextOnlyReactSnippet, CardWithTextOverlayReactSnippet } from "../Iframes";
 import image01 from '../Image/image01.png'
 //import waterImage from '../Image/water.jpg'
 
@@ -19,6 +20,9 @@ export default function Cardcomponent(){
                 <div class="component-items-container">
                     <iframe src="https://carbon.now.sh/embed/sByGEp7CzKMdXSnYlP85"style={{width: "445px", height: "279px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="CardWithBadge"></iframe>
                 </div>
+                <div class="component-items-container">
+               {CardWithBadgeReactSnippet}
+        </div>
               </div>
 
               {/* <!-- cards with dismiss--> */}
@@ -31,6 +35,9 @@ export default function Cardcomponent(){
                 <div class="component-items-container">
                     <iframe src="https://carbon.now.sh/embed/YHXTgJflYlCATqHWmQhM"style={{width: "681px", height: "260px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="CardWithdismiss"></iframe>
                 </div>
+                <div class="component-items-container">
+            {CardWithDismissReactSnippet}
+        </div>
               </div>
 
                {/* <!-- cards with text overlay--> */}
@@ -43,6 +50,9 @@ export default function Cardcomponent(){
                 <div class="component-items-container">
                     <iframe src="https://carbon.now.sh/embed/n15QaFB8SBiLH5FBCEwU" style={{width: "546px", height: "316px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="CardWithtextoverlay"></iframe>
                 </div>
+                <div class="component-items-container">
+            {CardWithTextOverlayReactSnippet}
+        </div>
               </div>
 
                {/* <!-- Text only cards--> */}
@@ -55,6 +65,9 @@ export default function Cardcomponent(){
                 <div class="component-items-container">
                     <iframe src="https://carbon.now.sh/embed/3kOfY5gEFqpk9vwtpUr2"style={{width: "420px", height: "260px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Cardtextonly"></iframe>
                 </div>
+                <div class="component-items-container">
+            {CardWithTextOnlyReactSnippet}
+        </div>
               </div>
                {/* <!-- vertical cards--> */}
 
@@ -66,6 +79,9 @@ export default function Cardcomponent(){
                 <div class="component-items-container">
                     <iframe src="https://carbon.now.sh/embed/QBn86f4jnpLJWw0qLtd7"style={{width: "513px", height: "353px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Cardvertical"></iframe>
                 </div>
+                <div class="component-items-container">
+            {CardVerticalReactSnippet}
+        </div>
               </div>
               {/* <!-- horizontal cards--> */}
 
@@ -78,6 +94,9 @@ export default function Cardcomponent(){
                 <div class="component-items-container">
                     <iframe src="https://carbon.now.sh/embed/JqVHn6IMVUpYsIfPozki"style={{width:"529px", height: "353px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="Cardhorizontal"></iframe>
                 </div>
+                <div class="component-items-container">
+            {CardHorizantalReactSnippet}
+        </div>
               </div>
                {/* <!-- shadow cards--> */}
             <div>
@@ -89,6 +108,9 @@ export default function Cardcomponent(){
                 <div class="component-items-container">
                     <iframe src="https://carbon.now.sh/embed/MNMmwcFZYCUeCMrVBHt8"style={{width: "538px", height: "316px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title="CardWithshadow"></iframe>
                 </div>
+                <div class="component-items-container">
+            {CardShadowReactSnippet}
+        </div>
             </div>
      </div>
     );

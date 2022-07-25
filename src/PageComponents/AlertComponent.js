@@ -1,10 +1,11 @@
 import Alert from '../components/Alert/Alert';
+import { AlertFilledReactSnippet, AlertFilledSnippet, AlertOutlineReactSnippet } from '../Iframes';
 
 export default function Alertcomponent(){
     return(
       
         <div class="gap">
-   
+        
         <h2 class="typo-32px font-semibold" id="alert">Alert</h2>
         <p class="typo-16px font-light">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
         <div class="component-items-container card-shadow">
@@ -15,8 +16,11 @@ export default function Alertcomponent(){
 
         </div>
         <div class="component-items-container">
-            <iframe
-            src="https://carbon.now.sh/embed/ditkVawAoA9vNczgfaXV"style={{width: "765px", height: "409px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin" title='AlertFilled'></iframe>
+            {AlertFilledSnippet}
+            {/* {AlertFilledReactSnippet} */}
+        </div>
+        <div class="component-items-container">
+            {AlertFilledReactSnippet}
         </div>
 
         <div class="component-items-container card-shadow">
@@ -29,6 +33,9 @@ export default function Alertcomponent(){
         <div class="component-items-container">
             <iframe title='AlertOutline'
             src="https://carbon.now.sh/embed/akwRUVCACAD14BbcdmAl"style={{width: "765px", height: "409px", border:0, transform: "scale(1)", overflow:"hidden"}} sandbox="allow-scripts allow-same-origin"></iframe>
+        </div>
+        <div class="component-items-container">
+            {AlertOutlineReactSnippet}
         </div>
        </div>
     )
