@@ -11,6 +11,7 @@ export default function Introduction(){
           <a
             href="https://github.com/srinidhi9831/OneUI-component-library.git"
             target="_blank"
+            rel="noreferrer"
           >
             <span class="link intro-github"> GitHub </span>
           </a>
