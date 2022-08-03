@@ -2,8 +2,8 @@
 import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Documentation from './pages/Documentation';
-import Home from './pages/Home';
+import Documentation from './PageMain/Documentation';
+import Home from './PageMain/Home';
 import Navigation from './pages/Navigation';
 function App() {
 const [style,setStyle]=useState("container m-auto p-2")

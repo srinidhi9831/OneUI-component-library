@@ -11,7 +11,7 @@ export default function Sidenav(){
 
         <SideNavGroup value="Getting Started" for="getting-started">
                <SideNavItems>
-                  <SideNavItem><a onClick={()=>setPage(1)}>Introduction</a></SideNavItem>
+                  <SideNavItem><a href="/" onClick={()=>setPage(1)}>Introduction</a></SideNavItem>
                   <SideNavItem><a onClick={()=>setPage(2)}>Color</a></SideNavItem>
                   <SideNavItem><a onClick={()=>setPage(3)}>Display</a></SideNavItem>
                   <SideNavItem><a onClick={()=>setPage(4)}>Headings</a></SideNavItem>
@@ -73,8 +73,8 @@ export default function Sidenav(){
                   <SideNavItem><a onClick={()=>setPage(52)}>Toast</a></SideNavItem>
                   <SideNavItem><a onClick={()=>setPage(53)}>Toast Demo</a></SideNavItem>
                   <SideNavItem><a onClick={()=>setPage(54)}>Stacked Toast</a></SideNavItem>
-                  <SideNavItem><a onClick={()=>setPage(55)}>Left Tooltip</a></SideNavItem>
-                  <SideNavItem><a onClick={()=>setPage(56)}>Right Tooltip</a></SideNavItem>
+                  <SideNavItem><a href='#' onClick={()=>setPage(55)}>Left Tooltip</a></SideNavItem>
+                  <SideNavItem><a href={"#"} onClick={()=>setPage(56)}>Right Tooltip</a></SideNavItem>
                
                   
                </SideNavItems>

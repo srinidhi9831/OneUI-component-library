@@ -1,24 +1,24 @@
 import { useEffect } from "react";
 import { useCart } from "../Context/cart-context";
-import AlertComponent, { AlertSecondary } from "./Alert";
-import AvatarComponent from "./Avatar";
-import BadgeComponent from "./Badge";
-import ButtonComponent from "./Button";
-import CardComponent from "./Card";
-import Color from "./Color";
-import ImageComponent from "./Image";
-import InputComponent from "./Input";
-import Introduction from "./Introduction";
-import Layout from "./Layout";
-import ListComponent from "./List";
-import ModalComponent from "./Modal";
-import { NavigationComp } from "./Navigation";
-import RatingComponent from "./Rating";
-import Sidenav from "./Sidenav";
-import SliderComponent from "./Slider";
-import ToastComponent from "./Toast";
-import ToolTipComponent from "./Tooltip";
-import Typography from "./Typography";
+import AlertComponent, { AlertSecondary } from "../pages/Alert";
+import AvatarComponent from "../pages/Avatar";
+import BadgeComponent from "../pages/Badge";
+import ButtonComponent from "../pages/Button";
+import CardComponent from "../pages/Card";
+import Color from "../pages/Color";
+import ImageComponent from "../pages/Image";
+import InputComponent from "../pages/Input";
+import Introduction from "../pages/Introduction";
+import Layout from "../pages/Layout";
+import ListComponent from "../pages/List";
+import ModalComponent from "../pages/Modal";
+import { NavigationComp } from "../pages/Navigation";
+import RatingComponent from "../pages/Rating";
+import Sidenav from "../pages/Sidenav";
+import SliderComponent from "../pages/Slider";
+import ToastComponent from "../pages/Toast";
+import ToolTipComponent from "../pages/Tooltip";
+import Typography from "../pages/Typography";
 export default function Documentation(){
 
     useEffect(()=>addhljs())
