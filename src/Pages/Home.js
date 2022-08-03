@@ -1,26 +1,29 @@
-import './documentation.css';
-import { useNavigate } from "react-router-dom";
-export default function Home(){
+export default function Home (){
+    return(
+        <main class="main">
+        <div>
+          <h1>
+            Now design your project faster and better with
+            <span class="block">One UI</span>
+          </h1>
 
-    let navigate = useNavigate();
+          <a href="/">
+            <button class="btn btn-primary-solid btn-squared btn-home">
+              Get Started
+            </button>
+          </a>
 
-return(
-
-    <body>
-
-<div class="des-container">
-    <h1>Build fast, responsive sites with oneUI</h1>
-    <p>Quickly design and customize responsive mobile-first sites with oneUI, front-end open source toolkit, featuring extensive prebuilt components.</p>
-    <div>
-        <button class="bg-primary btn-bigger card-shadow" onClick={()=>navigate("/getstarted")}>get started</button>
-        <button class="bg-link-gray btn-bigger" onClick={()=>navigate("/docs")}>Documentation</button>
-    </div>
-
-</div>
-
-</body>
-
-
-)
-
+          <a
+            href="/"
+            target="_blank"
+          >
+            <button
+              class="btn btn-primary-outline btn-squared btn-home btn-home-outline"
+            >
+              GitHub
+            </button>
+          </a>
+        </div>
+      </main>
+    );
 }
