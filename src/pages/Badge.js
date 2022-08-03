@@ -1,7 +1,5 @@
 import blackpanther from "../assets/jpegs/black-panther.jpg"
-import captain from "../assets/jpegs/captain-america.jpg"
 import spider from "../assets/jpegs/spider-man.jpg"
-import ironman from "../assets/jpegs/iron-man.jpg"
 import marvel from "../assets/jpegs/marvel.jpg"
 import { BadgeAvatar, BadgeCount, BadgeIcon, BadgeStatus, SnippetJs } from "../Components/Components"
 
@@ -18,11 +16,11 @@ export default function BadgeComponent({page}){
 
       
 
-        {page==18 && BadgeOnIcon()}
+        {page===18 && BadgeOnIcon()}
 
         
 
-        {page==19 && BadgeOnAvatar()}
+        {page===19 && BadgeOnAvatar()}
 
         
       </>

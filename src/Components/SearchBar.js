@@ -52,11 +52,11 @@ function SearchBar({ placeholder, data }) {
           )}
         </div>
       </div>
-      {filteredData.length != 0 && (
+      {filteredData.length !== 0 && (
         <div className="dataResult">
           {filteredData.slice(0, 15).map((value, key) => {
             return (
-              <a className="dataItem" href="#"  onClick={()=>clkhandler(value.page)}>
+              <a className="dataItem" href="#0"  onClick={()=>clkhandler(value.page)}>
                 <p>{value.Pagename} </p>
               </a>
             );

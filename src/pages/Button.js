@@ -1,5 +1,5 @@
 import { Button, ButtonFloatingAction, ButtonIcon, ButtonLink, SnippetJs } from "../Components/Components";
-import { useCart } from "../Context/cart-context";
+
 
 
 export default function ButtonComponent({page}){
@@ -16,19 +16,19 @@ export default function ButtonComponent({page}){
 
         
 
-        {page==20 && ButtonFilledComp()}
+        {page===20 && ButtonFilledComp()}
 
         
-        {page==21 && ButtonOutlineComp()}
+        {page===21 && ButtonOutlineComp()}
 
       
-        {page==22 && ButtonLinkComp()}
+        {page===22 && ButtonLinkComp()}
 
        
-        {page==23 && ButtonIconComp()}
+        {page===23 && ButtonIconComp()}
 
 
-        {page==24 && ButtonFloatingComp()}
+        {page===24 && ButtonFloatingComp()}
 
        
       </>

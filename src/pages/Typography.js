@@ -1,4 +1,4 @@
-import { useCart } from "../Context/cart-context";
+
 
 
 export default function Typography({page}){

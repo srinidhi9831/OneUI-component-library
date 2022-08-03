@@ -1,5 +1,5 @@
 
-    import {TableColor, Heading ,Table,CompContainerTable,HeadingItem,TableBody,TableBodyItem} from "../Pagecomponents/Color";
+    import {TableColor,CompContainerTable} from "../Pagecomponents/Color";
 
 //import {CompContainerTable,}
 export default function Color(){

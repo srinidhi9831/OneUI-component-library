@@ -1,8 +1,6 @@
 import { CardBadgeLeft, CardBoody, CardDismiss, CardDismissIcon, CardFooterHorizontal, CardFooterVertical, CardHeaderVertical, CardHeading, CardHorizontal, CardIconButton, CardImageHorizontal, CardImageVertical, CardTextOverlay, CardTextOverlayBody, CardTextOverlayContent, CardVertical, Cod, SnippetJs } from "../Components/Components";
-import blackpanther from "../assets/jpegs/black-panther.jpg"
+
 import captain from "../assets/jpegs/captain-america.jpg"
-import spider from "../assets/jpegs/spider-man.jpg"
-import ironman from "../assets/jpegs/iron-man.jpg"
 import marvel from "../assets/jpegs/marvel.jpg"
 import eternals from "../assets/jpegs/eternals.jpg"
 
@@ -19,19 +17,19 @@ export default function CardComponent({page}){
 
        
 
-        {page==25 && CardHorizontalComp()}
+        {page===25 && CardHorizontalComp()}
 
         
 
-        {page==26 && CardVerticalComp()}
+        {page===26 && CardVerticalComp()}
 
       
 
-        {page==27 && CardTextOverlayComp()}
+        {page===27 && CardTextOverlayComp()}
 
        
 
-        {page==28 && CardDismissShadowComp()}
+        {page===28 && CardDismissShadowComp()}
 
        
       </>

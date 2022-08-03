@@ -1,4 +1,4 @@
-import { Alert, Snippet, SnippetHtml, SnippetJs } from "../Components/Components";
+import { Alert, SnippetHtml, SnippetJs } from "../Components/Components";
 import { useCart } from "../Context/cart-context";
 
 export default function AlertComponent(){
@@ -11,11 +11,11 @@ export default function AlertComponent(){
         <p class="main-text">
           Alerts can be used to show a message to the user.
         </p>
-          {page==11 && AlertDanger()}
-          {page==12 && AlertInfo()}
-          {page==13 && AlertPrimary()}
-          {page==14 && AlertSecondary()}
-          {page==15 && AlertSuccess()}
+          {page===11 && AlertDanger()}
+          {page===12 && AlertInfo()}
+          {page===13 && AlertPrimary()}
+          {page===14 && AlertSecondary()}
+          {page===15 && AlertSuccess()}
       </>
     );
 }

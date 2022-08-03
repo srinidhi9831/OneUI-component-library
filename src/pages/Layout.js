@@ -8,10 +8,10 @@ export default function Layout({page}){
         <p class="main-text">
           CSS Grid can be used to structure elements in rows and columns.
         </p>
-          {page==7 && TwoColoumnGridComp()}
-          {page==8 && TwoRowGridComp()}
-          {page==9 && ThreeColoumnGridComp()}
-          {page==10 && ThreeRowGridComp()}
+          {page===7 && TwoColoumnGridComp()}
+          {page===8 && TwoRowGridComp()}
+          {page===9 && ThreeColoumnGridComp()}
+          {page===10 && ThreeRowGridComp()}
         </>
     );
 }

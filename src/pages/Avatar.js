@@ -13,9 +13,9 @@ const {page}=useCart();
         <h1 class="mb-3">Avatar</h1>
         <p class="main-text">Avatars can be used for user profile picture.</p>
 
-        {page==16 && AlertSameSized()}
+        {page===16 && AlertSameSized()}
 
-        {page==17 && AlertDifferentSize()}
+        {page===17 && AlertDifferentSize()}
 
 
       </>

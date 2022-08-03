@@ -14,9 +14,9 @@ export default function ImageComponent({page}){
 
        
 
-        {page==29 && ImageRoundComp()}
-        {page==30 && ImageSquareComp()}
-       {page==31 && ImageResponsiveComp()}
+        {page===29 && ImageRoundComp()}
+        {page===30 && ImageSquareComp()}
+       {page===31 && ImageResponsiveComp()}
 
       </>
     );

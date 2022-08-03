@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom';
 import { BadgeCount, BadgeIcon, Button, Cod, NavBreakPoint, NavBreakPointCont, NavBreakPointList, NavBreakPointListItem, NavigationContainer, NavigationContent, NavLogo, NavSearchBar, NavSection, SnippetHtml, SnippetJs } from '../Components/Components';
 import { Data } from '../Components/Data';
 import SearchBar from '../Components/SearchBar';
-import lo from './brand-logo.png'
 import logo from "../assets/pngs/logo-bg-stone.png"
 
 
@@ -23,14 +22,14 @@ const headStylehome=()=>set("container m-auto p-2")
           <SearchBar placeholder={"search..."} data={Data}/>
         </li>
         <li class="inline-block mx-1 link">
-        <a><NavLink onClick={headStylehome} to="/">Home</NavLink></a>
+        <a href="#0"><NavLink onClick={headStylehome} to="/">Home</NavLink></a>
         </li>
         <li class="inline-block mx-1 link">
         <NavLink onClick={headStyledocs} to="/docs">Docs</NavLink>
           
         </li>
         <li class="inline-block mx-1 ">
-            <a className='link'>GitHub</a>
+            <a href="#0" className='link'>GitHub</a>
         </li>
       </ul>
 
@@ -53,7 +52,7 @@ export function NavigationComp({page}){
        
 
         {page===47 && NavigationDesktopComp() }
-        {page==48 && NavigationMobileComp()}
+        {page===48 && NavigationMobileComp()}
 
 
 </>

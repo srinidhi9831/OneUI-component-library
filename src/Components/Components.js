@@ -344,7 +344,7 @@ export function CardTextOverlay(props){
    export function ListOrdered(props){
 
    return(
-    props.reversed==true && (<ol reversed className={props.className}>{props.children}</ol>) || <ol className={props.className}>{props.children}</ol>
+    (props.reversed===true && (<ol reversed className={props.className}>{props.children}</ol>)) || <ol className={props.className}>{props.children}</ol>
     
     )
    }
@@ -421,7 +421,7 @@ export function CardTextOverlay(props){
     
         return(
             <li class="shadow-light">
-            <a href={props.href} className={(props.viewed==true)?"viewed":""}>
+            <a href={props.href || "#0"} className={(props.viewed===true)?"viewed":""}>
             {props.children}
             </a>
           </li>
@@ -483,7 +483,7 @@ export function CardTextOverlay(props){
         return(
           <>
           <input type="radio" name="rating" id={props.id || props.for || ""} />
-          <label for={props.for} class={props.half==true?"half-star":""}>
+          <label for={props.for} class={props.half===true?"half-star":""}>
             &#9733;
              </label>
              </>

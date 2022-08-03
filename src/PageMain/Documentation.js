@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useCart } from "../Context/cart-context";
-import AlertComponent, { AlertSecondary } from "../pages/Alert";
+import AlertComponent from "../pages/Alert";
 import AvatarComponent from "../pages/Avatar";
 import BadgeComponent from "../pages/Badge";
 import ButtonComponent from "../pages/Button";
@@ -32,8 +32,8 @@ return(
     <Sidenav/>
     <main class="main-docs">
          
-        {(page==1) && <Introduction page={page}/>}
-        {(page==2) &&<Color page={page}/>}
+        {(page===1) && <Introduction page={page}/>}
+        {(page===2) &&<Color page={page}/>}
        { (page>=3 && page<=6) &&<Typography page={page}/>}
        { (page>=7 && page<=10) &&<Layout page={page}/>}
         {(page>=11 && page<=15) &&<AlertComponent page={page}/>}
@@ -47,7 +47,7 @@ return(
         {(page>=45 && page<=46) &&<ModalComponent page={page}/>}
         {(page>=47 && page<=48) && <NavigationComp page={page}/>}
          {(page>=49 && page<=50) &&<RatingComponent page={page}/>}
-         {(page==51) &&<SliderComponent page={page}/>}
+         {(page===51) &&<SliderComponent page={page}/>}
          {(page>=52 && page<=54) &&<ToastComponent page={page}/>}
          {(page>=55 && page<=56) &&<ToolTipComponent page={page}/>}
          </main>
