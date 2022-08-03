@@ -1,4 +1,9 @@
-export default function Home (){
+
+import { useNavigate } from "react-router-dom";
+import { useCart } from "../Context/cart-context";
+export default function Home ({set}){
+  let navigate = useNavigate();
+  const{setstylediv}=useCart()
     return(
         <main class="main">
         <div>
@@ -7,15 +12,16 @@ export default function Home (){
             <span class="block">One UI</span>
           </h1>
 
-          <a href="/">
-            <button class="btn btn-primary-solid btn-squared btn-home">
-              Get Started
+        
+            <button class="btn btn-primary-solid btn-squared btn-home" onClick={()=>{navigate("/docs");setstylediv("container docs m-auto p-2")}}>
+              Get Startedd
             </button>
-          </a>
+          
 
           <a
-            href="/"
+            href="https://github.com/srinidhi9831/OneUI-component-library.git"
             target="_blank"
+            rel="noreferrer"
           >
             <button
               class="btn btn-primary-outline btn-squared btn-home btn-home-outline"

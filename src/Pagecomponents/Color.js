@@ -3,7 +3,7 @@ export function CompContainerTable(props){
 
     return(
         <div class="component-container">
-            <div class="fs-1p5 grid grid-cols-2 p-1">
+            <div style={{backgroundColor:"white"}} class="fs-1p5 grid grid-cols-2 p-1">
                  {props.children}
                  </div>
             </div>

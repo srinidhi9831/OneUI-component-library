@@ -4,8 +4,9 @@ export const CartContext=createContext();
 
 export function CartProvider({ children })  {
     const[page,setPage]=useState(1);
+    const[stylediv,setstylediv]=useState("container m-auto p-2");
   return (
-    <CartContext.Provider value={{page,setPage}}>
+    <CartContext.Provider value={{page,setPage,stylediv,setstylediv}}>
       {children}
     </CartContext.Provider>
   );

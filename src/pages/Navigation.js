@@ -5,12 +5,12 @@ import { BadgeCount, BadgeIcon, Button, Cod, NavBreakPoint, NavBreakPointCont, N
 import { Data } from '../Components/Data';
 import SearchBar from '../Components/SearchBar';
 import logo from "../assets/pngs/logo-bg-stone.png"
+import { useCart } from '../Context/cart-context';
 
 
 export default function Navigation({set}){
-  
-const headStyledocs=()=>set("container docs m-auto p-2")
-const headStylehome=()=>set("container m-auto p-2")
+  const{setstylediv}=useCart();
+
     return (
     <header class="header header-docs">
    
@@ -22,14 +22,14 @@ const headStylehome=()=>set("container m-auto p-2")
           <SearchBar placeholder={"search..."} data={Data}/>
         </li>
         <li class="inline-block mx-1 link">
-        <a href="#0"><NavLink onClick={headStylehome} to="/">Home</NavLink></a>
+        <a href="#0"><NavLink onClick={()=>setstylediv("container m-auto p-2")}  to="/">Home</NavLink></a>
         </li>
         <li class="inline-block mx-1 link">
-        <NavLink onClick={headStyledocs} to="/docs">Docs</NavLink>
+        <NavLink onClick={()=>setstylediv("container docs m-auto p-2")} to="/docs">Docs</NavLink>
           
         </li>
         <li class="inline-block mx-1 ">
-            <a href="#0" className='link'>GitHub</a>
+            <a href="https://github.com/srinidhi9831/OneUI-component-library.git"  target="_blank" rel="noreferrer" className='link'>GitHub</a>
         </li>
       </ul>
 

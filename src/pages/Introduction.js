@@ -9,12 +9,12 @@ export default function Introduction(){
           <em>React Js</em>. You can use it to build awesome
           UI layouts. To know more about it, look at its
           <a
-            href="/"
+            href="https://github.com/srinidhi9831/OneUI-component-library.git"
             target="_blank"
           >
-            <span class="link intro-github">GitHub</span>
+            <span class="link intro-github"> GitHub </span>
           </a>
-          repo.
+                repo.
         </p>
 
         <section class="my-2 section-component">
@@ -38,7 +38,7 @@ export default function Introduction(){
 {`
 <link
    rel="stylesheet"
-   href="https://poshui-components.netlify.app/css/main.css"
+   href="https://srinidhi9831.github.io/OneUI-component-library/src/style.css"
 />
 
 
@@ -67,7 +67,7 @@ export default function Introduction(){
 {`
 
 <script 
-   src="https://poshui-components.netlify.app/js/main.js> 
+   src="https://srinidhi9831.github.io/OneUI-component-library/src/style.js"> 
  </script>
   
  

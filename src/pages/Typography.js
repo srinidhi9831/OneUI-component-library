@@ -28,22 +28,22 @@ export function TypoDisplayComp() {
 
     <div class="component-container">
       <div>
-        <p class="fs-xs">Extra Small Posh UI</p>
-        <p class="fs-sm">Small Posh UI</p>
-        <p class="fs-md">Medium Posh UI</p>
-        <p class="fs-lg">Large Posh UI</p>
-        <p class="fs-xl">Extra Large Posh UI</p>
-        <p class="fs-xxl">Extra Extra Large Posh UI</p>
+        <p class="fs-xs">Extra Small One UI</p>
+        <p class="fs-sm">Small One UI</p>
+        <p class="fs-md">Medium One UI</p>
+        <p class="fs-lg">Large One UI</p>
+        <p class="fs-xl">Extra Large One UI</p>
+        <p class="fs-xxl">Extra Extra Large One UI</p>
       </div>
 
       <pre class="pre-code">
         <code class="language-html">
-          {`<p class="fs-xs">Extra Small Posh UI</p>
-<p class="fs-sm">Small Posh UI</p>
-<p class="fs-md">Medium Posh UI</p>
-<p class="fs-lg">Large Posh UI</p>
-<p class="fs-xl">Extra Large Posh UI</p>
-<p class="fs-xxl">Extra Extra Large Posh UI</p>
+          {`<p class="fs-xs">Extra Small One UI</p>
+<p class="fs-sm">Small One UI</p>
+<p class="fs-md">Medium One UI</p>
+<p class="fs-lg">Large One UI</p>
+<p class="fs-xl">Extra Large One UI</p>
+<p class="fs-xxl">Extra Extra Large One UI</p>
 
 
 `}
@@ -59,22 +59,22 @@ export function TypoHeadingComp() {
 
     <div class="component-container">
       <div>
-        <h6 class="my-0p5">h6. Posh UI heading</h6>
-        <h5 class="my-0p5">h5. Posh UI heading</h5>
-        <h4 class="my-0p5">h4. Posh UI heading</h4>
-        <h3 class="my-0p5">h3. Posh UI heading</h3>
-        <h2 class="my-0p5">h2. Posh UI heading</h2>
-        <h1 class="my-0p5 fs-3">h1. Posh UI heading</h1>
+        <h6 class="my-0p5">h6. One UI heading</h6>
+        <h5 class="my-0p5">h5. One UI heading</h5>
+        <h4 class="my-0p5">h4. One UI heading</h4>
+        <h3 class="my-0p5">h3. One UI heading</h3>
+        <h2 class="my-0p5">h2. One UI heading</h2>
+        <h1 class="my-0p5 fs-3">h1. One UI heading</h1>
       </div>
 
       <pre class="pre-code">
         <code class="language-html">
-          {`<h6 class="my-0p5">h6. Posh UI heading</h6>
-<h5 class="my-0p5">h5. Posh UI heading</h5>
-<h4 class="my-0p5">h4. Posh UI heading</h4>
-<h3 class="my-0p5">h3. Posh UI heading</h3>
-<h2 class="my-0p5">h2. Posh UI heading</h2>
-<h1 class="my-0p5">h1. Posh UI heading</h1>
+          {`<h6 class="my-0p5">h6. One UI heading</h6>
+<h5 class="my-0p5">h5. One UI heading</h5>
+<h4 class="my-0p5">h4. One UI heading</h4>
+<h3 class="my-0p5">h3. One UI heading</h3>
+<h2 class="my-0p5">h2. One UI heading</h2>
+<h1 class="my-0p5">h1. One UI heading</h1>
 
 
 `}

@@ -19,7 +19,7 @@ export default function Color(){
           <pre class="pre-code intro-pre">
               <code class="language-css">
 {`
-.poshui-demo {
+.oneUI-demo {
   color: var(--COLOR-AMBER-500);
   background: var(--COLOR-AMBER-200);
 }
