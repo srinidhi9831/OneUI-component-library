@@ -11,7 +11,7 @@ export default function Color(){
         <h1 class="mb-3">Color</h1>
         <p class="main-text">
           These are some color variable that are present in the
-          <em>Posh UI</em>. You can use these in your custom <em>CSS</em> files.
+          <em>One UI</em>. You can use these in your custom <em>CSS</em> files.
           Use it like this,
         </p>
 
