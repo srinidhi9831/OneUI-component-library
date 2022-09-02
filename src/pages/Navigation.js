@@ -33,9 +33,7 @@ export default function Navigation({set}){
         </li>
       </ul>
 
-      <button class="btn-theme translate-y">
-        <i class="far fa-moon"></i>
-      </button>
+      
     </nav>
   </header>);
 }

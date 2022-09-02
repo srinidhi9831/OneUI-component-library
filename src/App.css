@@ -4,7 +4,7 @@
 
 @import url(./Components/Searchbar.css);
 :root {
-  /* variables are coming from https://poshui-components.netlify.app/css/main.css */
+ 
   --COLOR-BACKGROUND: var(--COLOR-SLATE-50);
 
   --COLOR-BRAND: var(--COLOR-GLOSSY-BLUE-500);

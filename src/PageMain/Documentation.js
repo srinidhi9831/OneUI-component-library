@@ -6,6 +6,7 @@ import BadgeComponent from "../pages/Badge";
 import ButtonComponent from "../pages/Button";
 import CardComponent from "../pages/Card";
 import Color from "../pages/Color";
+import Footer from "../pages/Footter";
 import ImageComponent from "../pages/Image";
 import InputComponent from "../pages/Input";
 import Introduction from "../pages/Introduction";
@@ -50,6 +51,7 @@ return(
          {(page===51) &&<SliderComponent page={page}/>}
          {(page>=52 && page<=54) &&<ToastComponent page={page}/>}
          {(page>=55 && page<=56) &&<ToolTipComponent page={page}/>}
+         <Footer/>
          </main>
         
          </>   

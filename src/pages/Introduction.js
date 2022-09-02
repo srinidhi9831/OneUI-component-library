@@ -1,3 +1,4 @@
+import { SnippetJs } from "../Components/Components";
 
 export default function Introduction(){
   
@@ -6,7 +7,7 @@ export default function Introduction(){
         <h1 class="mb-3">Introduction</h1>
         <p class="main-text">
           One UI is a continuously developing Component Library, built using
-          <em>React Js</em>. You can use it to build awesome
+          <em> React Js </em>. You can use it to build awesome
           UI layouts. To know more about it, look at its
           <a
             href="https://github.com/srinidhi9831/OneUI-component-library.git"
@@ -74,6 +75,31 @@ export default function Introduction(){
  
 `}         
                 </code>
+              </pre>
+            </div>
+          </article>
+
+              <article class="my-2">
+            <h3>React</h3>
+
+            <p class="my-2 section-text">
+              To start using react components in your project, you need to install a package. Copy the command and paste in the node terminal
+              at your project path.   
+            </p>
+
+            <div class="component-container">
+               <pre class="pre-code intro-pre">
+                <code class="language-plaintext">        
+{
+`
+npm i oneui-component-library
+
+
+
+`}         
+                
+              
+                 </code>
               </pre>
             </div>
           </article>

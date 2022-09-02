@@ -12,10 +12,10 @@ export default function ToastComponent({page}){
 
         {page===52 && ToastNotificationComp()}
 
-        {page===53 && ToastNotificationDemoComp()}
+        {page===53 && <>{<ToastNotificationDemoComp/>}</>}
 
-        {page===54 && ToastStackedComp()}
-
+        {page===54 && <>{<ToastStackedComp/>}</>}
+            
 
       </>
 
@@ -75,7 +75,7 @@ export function ToastStackedComp() {
             <ToastStackedItem>
             <Toast className={style}>
            <ToastHeader>
-             Notification from Posh UI
+             Notification from One UI
              <button class="toast-cross" onClick={HideToast}>
               <i class="fas fa-times"></i>
              </button>
@@ -88,7 +88,7 @@ export function ToastStackedComp() {
             <ToastStackedItem>
             <Toast className={styleSec}>
            <ToastHeader>
-             Notification from Posh UI
+             Notification from One UI
              <button class="toast-cross" onClick={HideToastSec}>
               <i class="fas fa-times"></i>
              </button>
@@ -262,7 +262,7 @@ export function ToastNotificationDemoComp() {
         
         <Toast className={style}>
            <ToastHeader>
-             Notification from Posh UI
+             Notification from One UI
              <button class="toast-cross" onClick={HideToast}>
               <i class="fas fa-times"></i>
              </button>
@@ -351,7 +351,7 @@ export function ToastNotificationComp() {
         
         <Toast>
            <ToastHeader>
-             Notification from Posh UI
+             Notification from One UI
              <button class="toast-cross">
               <i class="fas fa-times"></i>
              </button>

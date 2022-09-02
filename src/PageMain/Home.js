@@ -1,10 +1,12 @@
 
 import { useNavigate } from "react-router-dom";
 import { useCart } from "../Context/cart-context";
+import Footer from "../pages/Footter";
 export default function Home ({set}){
   let navigate = useNavigate();
   const{setstylediv}=useCart()
     return(
+      <>
         <main class="main">
         <div>
           <h1>
@@ -31,5 +33,7 @@ export default function Home ({set}){
           </a>
         </div>
       </main>
+      <Footer/>
+      </>
     );
 }
