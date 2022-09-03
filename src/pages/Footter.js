@@ -10,6 +10,7 @@ export default function Footer(){
                 href="https://twitter.com/srinidh9831"
                 class="fs-2 link"
                 target="_blank"
+                rel="noreferrer"
                 ><i class="fab fa-twitter"></i
               ></a>
             </li>
@@ -17,6 +18,7 @@ export default function Footer(){
               <a
                 href="https://github.com/srinidhi9831/"
                 class="fs-2 link"
+                rel="noreferrer"
                 target="_blank"
                 ><i class="fab fa-github"></i
               ></a>
@@ -25,6 +27,7 @@ export default function Footer(){
               <a
                 href="https://www.linkedin.com/in/srinidhi9831/"
                 target="_blank"
+                rel="noreferrer"
                 class="fs-2 link"
                 ><i class="fab fa-linkedin-in"></i
               ></a>
@@ -34,6 +37,7 @@ export default function Footer(){
                 href="https://www.instagram.com/srinidhi_kashyap/"
                 target="_blank"
                 class="fs-2 link"
+                rel="noreferrer"
                 ><i class="fab fa-instagram"></i
               ></a>
             </li>
